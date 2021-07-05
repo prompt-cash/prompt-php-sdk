@@ -2,6 +2,8 @@
 This is a PHP library to add [Prompt.Cash](https://prompt.cash/) to your PHP based website (WordPress, Laravel, Joomla, ...).
 It is a PHP wrapper over the [Prompt.Cash REST API](https://prompt.cash/pub/docs/).
 
+**Work in Progress - DO NOT USE THIS SDK YET**
+
 For WordPress there is also an [official plugin](https://wordpress.org/plugins/prompt-cash-monetize-your-blog-with-bitcoin-cash/).
 
 #### Installation
