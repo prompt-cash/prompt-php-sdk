@@ -1,5 +1,6 @@
 # Prompt.Cash PHP SDK
 This is a PHP library to add [Prompt.Cash](https://prompt.cash/) to your PHP based website (WordPress, Laravel, Joomla, ...).
+It is a PHP wrapper over the [Prompt.Cash REST API](https://prompt.cash/pub/docs/).
 
 For WordPress there is also an [official plugin](https://wordpress.org/plugins/prompt-cash-monetize-your-blog-with-bitcoin-cash/).
 
@@ -19,7 +20,13 @@ PHP >= 7.2
 ```
 
 ## Features
-* 
+* create new payments
+* show payment QR code as iframe or redirect to payment page in new window  
+* check payment status
+* create short URLs (URL shortener to monetize links)
+* get a list of previously created short URLs
+* delete and update short URLs
+
 
 ## Docs
 Take a look at [code examples](./examples).
