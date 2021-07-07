@@ -2,6 +2,7 @@
 namespace PromptCash\PromptPhpSdk\Rest;
 
 use PromptCash\PromptPhpSdk\PromptOptions;
+use PromptCash\PromptPhpSdk\Rest\Request\PaymentReq;
 use PromptCash\PromptPhpSdk\Rest\Response\PaymentRes;
 
 /**
@@ -13,7 +14,12 @@ class Payment extends AbstractApi {
         parent::__construct($options);
     }
 
-    public function CreateNewPayment(): PaymentRes {
+    /** Creates a new payment with with the specified amount, currency, etc...
+     * @param PaymentReq $req
+     * @return PaymentRes
+     * @link https://prompt.cash/pub/docs/#create-a-new-payment
+     */
+    public function CreateNewPayment(PaymentReq  $req): PaymentRes {
         // TODO implement this https://prompt.cash/pub/docs/#create-a-new-payment
         // example
         $url = $this->getApiUrl("create-payment");

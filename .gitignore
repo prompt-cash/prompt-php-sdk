@@ -55,6 +55,9 @@ pids
 .yarn-integrity
 
 
+# PHPUnit test results
+*.cache
+
 # PHP packages
 
 

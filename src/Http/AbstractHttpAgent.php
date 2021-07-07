@@ -110,7 +110,7 @@ abstract class AbstractHttpAgent {
             $headers = array_merge($headers, $options['headers']);
         $headerList = array();
         foreach ($headers as $key => $value) {
-            $headerList[] = strtolower(sprintf("%s: %s", $key, $value));
+            $headerList[] = sprintf("%s: %s", strtolower($key), $value);
         }
         return $headerList;
     }

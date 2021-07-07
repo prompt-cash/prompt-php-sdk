@@ -40,6 +40,7 @@ class PromptOptions {
      * @var string
      */
     public $promptCashServer = "https://prompt.cash/api/v1/";
+    //public $promptCashServer = "http://danielmac.local:2929/api/v1/";
 
     /**
      * Creates options to connect to the Prompt.Cash REST API.
